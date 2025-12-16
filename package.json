@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Cloudflare Pages Music Player",
   "scripts": {
-    "build": "echo 'Skipping build process for static site'",
-    "dev": "wrangler pages dev .",
-    "deploy": "wrangler pages deploy ."
+    "build": "echo 'No build step required'",
+    "deploy": "npx wrangler pages deploy ."
   },
   "keywords": ["music", "player", "cloudflare"],
   "devDependencies": {
