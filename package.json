@@ -1,9 +1,17 @@
 {
+  "name": "solara",
+  "version": "1.0.0",
+  "description": "Cloudflare Pages Music Player",
   "scripts": {
-    "build": "echo 'No build required'",
+    "build": "echo 'Skipping build process for static site'",
+    "dev": "wrangler pages dev .",
     "deploy": "wrangler pages deploy ."
   },
+  "keywords": ["music", "player", "cloudflare"],
   "devDependencies": {
     "wrangler": "^4.54.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
