@@ -1,8 +1,6 @@
 {
-  "name": "music-player",
-  "version": "1.0.0",
   "scripts": {
-    "dev": "wrangler pages dev .",
+    "build": "echo 'No build required'",
     "deploy": "wrangler pages deploy ."
   },
   "devDependencies": {
